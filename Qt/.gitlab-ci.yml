@@ -1,0 +1,11 @@
+# GitLab file. See "qtenv2_gitlab.bat" for Windows CI Runner.
+stages:
+  - build
+job:
+  stage: build
+  script:
+  - echo "Release build..."
+  - C:\Qt\5.7\mingw53_32\bin\qtenv2_gitlab.bat
+  tags: 
+  except:
+  - tags
