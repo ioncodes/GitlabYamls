@@ -1,0 +1,3 @@
+job:
+  script:
+  - java_ci JARNAME.jar STARTERCLASS RESSOURCEDIR

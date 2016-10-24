@@ -1,0 +1,3 @@
+job:
+  script:
+  - net_ci PROJECTNAME

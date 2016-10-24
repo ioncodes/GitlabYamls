@@ -1,9 +1,0 @@
-stages:
-  - build
-job:
-  stage: build
-  script:
-  - jar cf JavaCI.jar examples/src/main/java/com/github/kevinsawicki/api/PageCommits.java
-  tags: 
-  except:
-  - tags
